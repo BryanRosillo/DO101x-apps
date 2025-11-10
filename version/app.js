@@ -6,7 +6,7 @@ var response;
 app.get('/version', function (req, res) {
 
     response = 'This is version 2 of the app.' + '\n';
-
+    console.log('New message...')
     //send the response to the client
     res.send(response);
 
